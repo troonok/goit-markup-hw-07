@@ -24,7 +24,12 @@
 .conteiner{
     @extend %conteiner;
 }
-
+h1,h2,h3,p{
+    @extend %h1;
+    @extend %h2;
+    @extend %h3;
+    @extend %p;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
