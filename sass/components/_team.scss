@@ -72,5 +72,5 @@
 .connect:hover,
 .connect:focus{
     background-color: $accent-color;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $transition-option;
 }
